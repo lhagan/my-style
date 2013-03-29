@@ -1,14 +1,13 @@
-# My Style
-[My Style](https://chrome.google.com/webstore/detail/my-style/ljdhjpmbnkbengahefamnhmegbdifhlb)
-is a Google Chrome extension that allows you to insert custom CSS into pages,
+# My Style Safari
+My Style is a Safari extension that allows you to insert custom CSS into pages,
 immediately see the visual results, and have that CSS persist for future
-visits.
+visits. It's a direct port of Karthik Viswanathan's [My Style](https://github.com/karthikv/my-style) Chrome extension.
 
 ## Usage
 Take TechCrunch, for example. You may dislike the site's design and want to add
 your own touch--that is, your own style--to make it aesthetically pleasing.
 After installing the extension, visit [TechCrunch](http://techcrunch.com) and
-hit control + m in your browser. You should see a textarea to the right:
+hit control + m or right click and select "My Style" in your browser. You should see a textarea to the right:
 
 ![Techcrunch textarea](https://raw.github.com/karthikv/my-style/master/screenshots/techcrunch-textarea.png)
 
@@ -29,9 +28,7 @@ editor. With this, you can circumvent the time it takes to inspect the element
 to find how to target it.
 
 ## Installation
-You may install My Style at the
-[Chrome Web Store](https://chrome.google.com/webstore/detail/my-style/ljdhjpmbnkbengahefamnhmegbdifhlb).
-Just click the 'Add to Chrome' button.
+Just [download the extension]() and double click to install.
 
 ## How it Works
 My Style is quite simple. It inserts a textarea into the page, looks for
@@ -55,6 +52,7 @@ a better option to retain CSS.
 (The MIT License)
 
 Copyright (c) 2013 Karthik Viswanathan &lt;me@karthikv.net&gt;
+Copyright (c) 2013 Luke Hagan &lt;lukehagan.com&gt;
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the

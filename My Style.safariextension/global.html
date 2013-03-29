@@ -1,0 +1,40 @@
+<!--
+My Style Safari Extension
+by Luke Hagan <lukehagan.com>
+
+Ported from the Chrome Extension
+by Karthik Viswanathan <me@karthikv.net>
+
+created 2013-03-25
+released under the MIT license (see LICENSE.md for details)
+-->
+
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>global page</title>
+		<script type="text/javascript">
+
+		function performCommand(event) {
+			if (event.command === "mystyle") {
+				console.log('test');
+				safari.application.activeBrowserWindow.activeTab.page.dispatchMessage("toggleMyStyle", "data");
+			}
+		}
+
+		function validateCommand(event) {
+			if (event.command === "reload-page") {
+			// Disable function if there is no URL loaded in the tab.
+				event.target.disabled = !event.target.browserWindow.activeTab.url;
+			}
+		}
+
+		// register with application:
+		safari.application.addEventListener("command", performCommand, false);
+		safari.application.addEventListener("validate", validateCommand, false);
+
+		</script>
+	</head>
+	<body>
+	</body>
+</html>
