@@ -28,7 +28,7 @@ editor. With this, you can circumvent the time it takes to inspect the element
 to find how to target it.
 
 ## Installation
-Just [download the extension]() and double click to install.
+Just [download the extension](http://labs.lukehagan.com/my-style/My%20Style.safariextz) and double click to install.
 
 ## How it Works
 My Style is quite simple. It inserts a textarea into the page, looks for
@@ -47,6 +47,10 @@ a better option to retain CSS.
 - Twitter: [@karthikvnet](https://twitter.com/karthikvnet)
 - Website: [http://karthikv.net](http://karthikv.net)
 - Email: me@karthikv.net
+
+### Luke Hagan
+- GitHub: [lhagan](https://github.com/lhagan)
+- Website: [lukehagan.com](http://lukehagan.com)
 
 ## License
 (The MIT License)
