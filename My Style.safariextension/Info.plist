@@ -60,6 +60,8 @@
 			<string>All</string>
 		</dict>
 	</dict>
+	<key>Update Manifest URL</key>
+	<string>http://labs.lukehagan.com/my-style/my-style.plist</string>
 	<key>Website</key>
 	<string>https://github.com/lhagan/my-style</string>
 </dict>
